@@ -31,12 +31,12 @@ export class User {
     name: string;
     identityProvider: string;
     userIdentifier: string;
-    idToken: Object
+    idToken: Object;
 
     /*
      * @hidden
      */
-    constructor(displayableId: string, name: string, identityProvider: string, userIdentifier: string, idToken:Object) {
+    constructor(displayableId: string, name: string, identityProvider: string, userIdentifier: string, idToken: Object) {
         this.displayableId = displayableId;
         this.name = name;
         this.identityProvider = identityProvider;
